@@ -1,0 +1,32 @@
+let table=React.createElement("tbody",null,
+    React.createElementElement("thead",null
+        ,React.createElement("tr",null,
+            React.createElement("th",null,"Name"),
+            React.createElement("th",null,"Age"),
+    )),
+    React.createElement("tbody",null,
+        React.createElement("tr",null,
+            React.createElement("td",null,"John"),
+            React.createElement("td",null,"30")
+        ),
+        React.createElement("tr",null,
+            React.createElement("td",null,"Jane"),
+            React.createElement("td",null,"25")
+        ),
+        React.createElement("tr",null,
+            React.createElement("td",null,"Doe"),
+            React.createElement("td",null,"40")
+        )
+    ),
+    React.createElement("tfoot",null,
+        React.createElement("tr",null,
+            React.createElement("td",null,"Total"),
+            React.createElement("td",null,"95")
+        )
+    )
+)
+console.log(table);
+ReactDOM.render(
+    React.createElement("table", { className: "table", id: "table" }, table)
+  
+);
