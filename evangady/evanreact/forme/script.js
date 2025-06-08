@@ -26,7 +26,4 @@ let table=React.createElement("tbody",null,
     )
 )
 console.log(table);
-ReactDOM.render(
-   table, document.getElementById("table")
-  
-);
+ReactDOM.render(table, document.getElementById("table"));
